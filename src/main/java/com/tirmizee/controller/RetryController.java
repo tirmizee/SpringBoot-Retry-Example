@@ -17,4 +17,10 @@ public class RetryController {
         return "retry01";
     }
 
+    @GetMapping("/retry02")
+    public String retry02(){
+        retryService.retryWithRetryTemplate();
+        return "retry02";
+    }
+
 }
