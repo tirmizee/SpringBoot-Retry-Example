@@ -1,7 +1,6 @@
 package com.tirmizee.service;
 
 import com.tirmizee.adapter.RedisAdapter;
-import com.tirmizee.adapter.WebClientAdapter;
 import lombok.AllArgsConstructor;
 import org.springframework.retry.annotation.Retryable;
 import org.springframework.stereotype.Service;
